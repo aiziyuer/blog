@@ -1,0 +1,43 @@
+{
+    "name": "aiziyuer/wordpress",
+    "description": "My Site",
+    "keywords": [
+        "wordpress"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aiziyuer",
+            "email": "ziyu0123456789@gmail.com",
+            "role": "User"
+        }
+    ],
+    "type": "project",
+    "minimum-stability": "dev",
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "require": {
+        "johnpbloch/wordpress": "4.9.4"
+    },
+    "require-dev": {},
+    "prefer-stable": true,
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}": ["type:wordpress-plugin"],
+            "content/themes/{$name}": ["type:wordpress-theme"],
+            "content/mu-plugins/{$name}": ["type:wordpress-muplugin"]
+        }
+    }
+}

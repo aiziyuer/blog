@@ -1,0 +1,5 @@
+*.lock
+/wp/*
+/vendor/*
+local-config.php
+!.keep
