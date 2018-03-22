@@ -2,7 +2,7 @@
 *.log
 /wp/*
 /vendor/*
-/shared/*
+/shared/content/uploads/*
 /content/plugins/*
 local-config.php
 !.keep
