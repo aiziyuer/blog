@@ -3,5 +3,6 @@
 /wp/*
 /vendor/*
 /shared/*
+/content/plugins/
 local-config.php
 !.keep

@@ -31,7 +31,9 @@
         "johnpbloch/wordpress": "4.9.4",
         "wpackagist-theme/twentyfifteen": "^1.9",
         "wpackagist-plugin/wordpress-importer": "^0.6.4",
-        "wpackagist-plugin/all-in-one-wp-migration": "^6.65"
+        "wpackagist-plugin/all-in-one-wp-migration": "^6.65",
+        "mathjax/mathjax": "^2.7",
+        "wpackagist-plugin/mathjax-latex": "^1.3"
     },
     "require-dev": {},
     "prefer-stable": true,
