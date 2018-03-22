@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "homepage": "https://github.com/aiziyuer/blog",
+  "authors": [
+    "aiziyuer <ziyu0123456789@gmail.com>"
+  ],
+  "description": "my site",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
