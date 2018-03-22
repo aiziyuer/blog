@@ -1,1 +1,7 @@
-{ "allow_root": true }
+{
+    "directory": "bower_components",
+    "proxy": "http://127.0.0.1:3128",
+    "https-proxy": "http://127.0.0.1:3128",
+    "strict-ssl": false,
+    "allow_root": true
+}

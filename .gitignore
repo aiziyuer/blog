@@ -2,6 +2,7 @@
 *.log
 /wp/*
 /vendor/*
+/bower_components/*
 /shared/content/uploads/*
 /content/plugins/*
 local-config.php
