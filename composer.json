@@ -28,7 +28,8 @@
         "vendor-dir": "vendor"
     },
     "require": {
-        "johnpbloch/wordpress": "4.9.4"
+        "johnpbloch/wordpress": "4.9.4",
+        "wpackagist-theme/twentyfifteen": "^1.9"
     },
     "require-dev": {},
     "prefer-stable": true,
