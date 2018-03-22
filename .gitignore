@@ -1,5 +1,6 @@
 *.lock
 /wp/*
 /vendor/*
+/shared/*
 local-config.php
 !.keep

@@ -29,7 +29,8 @@
     },
     "require": {
         "johnpbloch/wordpress": "4.9.4",
-        "wpackagist-theme/twentyfifteen": "^1.9"
+        "wpackagist-theme/twentyfifteen": "^1.9",
+        "wpackagist-plugin/wordpress-importer": "^0.6.4"
     },
     "require-dev": {},
     "prefer-stable": true,
