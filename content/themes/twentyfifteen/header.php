@@ -19,6 +19,27 @@
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+          jax: ["input/TeX","output/HTML-CSS"],
+		    //jax: ["input/TeX","output/NativeMML"],
+         tex2jax: {
+		      //"preview": "none",
+				CommonHTML: { linebreaks: { automatic: true } },
+				"HTML-CSS": { linebreaks: { automatic: true } },
+				SVG: { linebreaks: { automatic: true } },
+				inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+           displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
+           extensions: ["jsMath2jax.js"],
+           skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
+           ignoreClass:"class1"
+         },
+		   "fast-preview": { "disabled": true },
+         displayAlign: "left"
+		});
+		//MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
