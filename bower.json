@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "MathJax": "^2.7.3"
+    "MathJax": "^2.7.3",
+    "google-fonts": "*"
   }
 }
