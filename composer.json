@@ -30,9 +30,9 @@
     "require": {
         "johnpbloch/wordpress": "4.9.4",
         "wpackagist-theme/twentyfifteen": "^1.9",
-        "wpackagist-plugin/mathjax-latex": "^1.3",
         "wpackagist-plugin/image-cleanup": "^1.9",
-        "wpackagist-plugin/rvg-optimize-database": "^4.5"
+        "wpackagist-plugin/rvg-optimize-database": "^4.5",
+        "wpackagist-plugin/wp-editormd": "^4.0"
     },
     "require-dev": {},
     "prefer-stable": true,
